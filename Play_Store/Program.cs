@@ -1,8 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-//Console.WriteLine("Hello, World!");
+﻿
 using Play_Store;
-//using Categories;
-//Console.WriteLine("My Play Store");
+Console.WriteLine("My Play Store");
 
 //how to create object for class?
 
