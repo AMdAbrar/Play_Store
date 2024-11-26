@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Play_Store
 {
-    public class User:Iuser  // to inherit we use : instead of implement and extend
+    public class User:IPayment  // to inherit we use : instead of implement and extend
     {
         //public int id; //variable
 
@@ -20,6 +20,11 @@ namespace Play_Store
         public void AddUser()
         {
             //throw new NotImplementedException();
+        }
+
+        public void CancelPayment()
+        {
+            throw new NotImplementedException();
         }
 
         public void CreateUser() //Functions //syntax=public return/no-return MethondName
@@ -46,6 +51,16 @@ namespace Play_Store
         }
 
         public void GetUser()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void MakePayment(int acno, int amount)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void PaymentStatus(int transactionNo)
         {
             throw new NotImplementedException();
         }
